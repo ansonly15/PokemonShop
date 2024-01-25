@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <title>Pokemon Shop</title>
+
+    <!--CSS Link-->
+    <link rel="stylesheet" href="layout.css">
+
+    <!-- Javascript-->
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <img src="images/The Shop.png" alt="">
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="searchInput">
+                    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                </div>
+            </div>
+            <div class="navItem">
+                <span class="limitedOffer">Limited Offer!</span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">Pikachu</h3>
+            <h3 class="menuItem">Blastoise</h3>
+            <h3 class="menuItem">Charizard</h3>
+            <h3 class="menuItem">Squirtle</h3>
+            <h3 class="menuItem">Gengar</h3>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="images/pikachu-transparent-hd-1.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle"> Pikachu </h1>
+                <h2 class="sliderPrice">$2,500</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="images/009.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle"> Blastoise</h1>
+                <h2 class="sliderPrice">$4,000</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="images/collab_pokemon_catalog_charizard-min.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle"> Charizard </h1>
+                <h2 class="sliderPrice">$4,000</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="images/pokemon-png-19.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle"> Squirtle </h1>
+                <h2 class="sliderPrice">$2,000</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="images/6fccdb916ab1435f32d7b9dd5a6b0e79.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle"> Gengar</h1>
+                <h2 class="sliderPrice">$2,500</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="features">
+        <div class="feature">
+            <i class="fa-solid fa-truck-fast fa-2xl"></i>
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Free worldwide shipping on all orders.</span>
+        </div>
+        <div class="feature">
+            <i class="fa-solid fa-rotate-left fa-2xl"></i>
+            <span class="featureTitle">30 DAYS RETURN</span>
+            <span class="featureDesc">No question return and easy refund in 14 days.</span>
+        </div>
+        <div class="feature">
+            <i class="fa-solid fa-credit-card fa-2xl"></i>
+            <span class="featureTitle">GIFT CARDS</span>
+            <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+        </div>
+        <div class="feature">
+            <i class="fa-solid fa-address-book fa-2xl"></i>
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featureDesc">Keep in touch via email and support system.</span>
+        </div>
+    </div>
+
+    <div class="product" id="product">
+        <img src="images/pikachu-transparent-hd-1.png" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">Pikachu</h1>
+            <h2 class="productPrice">$2,500</h2>
+            <p class="productDesc"> GET YOUR PARTNER NOW!!!
+            </p>
+            <div class="sizes">
+                <div class="size">Regular</div>
+                <div class="size">Shiny</div>
+            </div>
+            <button class="productButton">BUY NOW!</button>
+        </div>
+
+        <!--CARD INFO -->
+        <div class="payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <label>Name and Surname</label>
+            <input type="text" placeholder="John Doe" class="payInput">
+            <label>Phone Number</label>
+            <input type="text" placeholder="+1 234 5678" class="payInput">
+            <label>Address</label>
+            <input type="text" placeholder="Elton St 21 22-145" class="payInput">
+            <h1 class="payTitle">Card Information</h1>
+            <div class="cardIcons">
+                <i class="fa-brands fa-cc-visa fa-lg"></i>
+                <i class="fa-brands fa-cc-mastercard fa-lg"></i>
+            </div>
+            <input type="password" class="payInput" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+            </div>
+            <button class="payButton">Checkout!</button>
+            <span class="close">X</span>
+        </div>
+    </div>
+
+    <!--GALLERY-->
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Be the Next Champion!</h1>
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/695f7949-df76-4452-bdf0-130afea52f21/dfso0on-a597cc54-4129-4f31-9097-87e91eb3a135.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY5NWY3OTQ5LWRmNzYtNDQ1Mi1iZGYwLTEzMGFmZWE1MmYyMVwvZGZzbzBvbi1hNTk3Y2M1NC00MTI5LTRmMzEtOTA5Ny04N2U5MWViM2ExMzUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-A-jBDrC3AEHNMGV5erQRlWviX588m7Lublr23SAyUA">
+        </div>
+        <div class="galleryItem">
+            <img src="https://purepng.com/public/uploads/thumbnail//purepng.com-pokeballpokeballdevicepokemon-ballpokemon-capture-ball-1701527825861ghxff.png" alt="" class="galleryImg">
+            <h1 class="galleryTitle">GOTTA CATCH EM ALL!!</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">WIN! </h1>
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/26fac2c1-3d9b-4e75-a0cf-f7b7e0f2fa6a/dfkik0h-f2d233ab-fb6b-4bef-9ed9-fe1e61f8d01b.png/v1/fill/w_706,h_1132/pokemon_world_championship_trophy_by_superherotimefan_dfkik0h-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTMwMTgiLCJwYXRoIjoiXC9mXC8yNmZhYzJjMS0zZDliLTRlNzUtYTBjZi1mN2I3ZTBmMmZhNmFcL2Rma2lrMGgtZjJkMjMzYWItZmI2Yi00YmVmLTllZDktZmUxZTYxZjhkMDFiLnBuZyIsIndpZHRoIjoiPD04MTIyIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.A_36Nq1zj0y4TVxcIKdqVXPxrBIRI8-llNpp8O9Vh4k"
+                alt="" class="galleryImg">
+        </div>
+    </div>
+    <div class="newSeason">
+        <div class="nsItem">
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/248.png" alt="" class="nsImg">
+        </div>
+        <div class="nsItem">
+            <h3 class="nsTitleSm">NEW ARRIVALS</h3>
+            <h1 class="nsTitle">START YOUR JOURNEY</h1>
+            <h1 class="nsTitle">NEW POKEMON</h1>
+            <a href="#nav">
+                <button class="nsButton">CHOOSE YOUR NEXT PARTNER</button>
+            </a>
+        </div>
+        <div class="nsItem">
+            <img src="https://qph.cf2.quoracdn.net/main-qimg-7ca95d2c75f8be17eae75d8bf5c63168" alt="" class="nsImg">
+        </div>
+    </div>
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">About Us</h1>
+                <ul class="fList">
+                    <li class="fListItem">Company</li>
+                    <li class="fListItem">Contact</li>
+                    <li class="fListItem">Careers</li>
+                    <li class="fListItem">Affiliates</li>
+                    <li class="fListItem">Stores</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Useful Links</h1>
+                <ul class="fList">
+                    <li class="fListItem">Support</li>
+                    <li class="fListItem">Refund</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Feedback</li>
+                    <li class="fListItem">Stories</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Products</h1>
+                <ul class="fList">
+                    <li class="fListItem">Pikachu</li>
+                    <li class="fListItem">Charizard</li>
+                    <li class="fListItem">Blastoise</li>
+                    <li class="fListItem">Squirtle</li>
+                    <li class="fListItem">Gengar</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="your@email.com" class="fInput">
+                    <button class="fButton">Join!</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+                <div class="fIcons">
+                    <i class="fa-brands fa-facebook fa-xl"></i>
+
+                </div>
+            </div>
+    </footer>
+</body>
+
+</html>
+</body>
+
+</html>
